@@ -1,0 +1,9 @@
+{
+  "peerDependencies": null,
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "^8.1.5"
+  }
+}

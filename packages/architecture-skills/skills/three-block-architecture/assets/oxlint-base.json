@@ -1,0 +1,22 @@
+{
+  "rules": {
+    "typescript/consistent-type-definitions": ["error", "type"],
+    "no-control-regex": "off",
+    "typescript/no-floating-promises": "error",
+    "typescript/no-misused-promises": "error",
+    "typescript/await-thenable": "error",
+    "typescript/no-unsafe-assignment": "error",
+    "typescript/no-unsafe-return": "error",
+    "typescript/no-unsafe-argument": "error",
+    "typescript/no-unsafe-call": "error",
+    "typescript/no-unsafe-member-access": "error",
+    "typescript/no-for-in-array": "error",
+    "typescript/no-implied-eval": "error",
+    "typescript/no-base-to-string": "error",
+    "typescript/no-array-delete": "error",
+    "typescript/no-misused-spread": "error",
+    "typescript/no-unnecessary-type-assertion": "error",
+    "typescript/no-redundant-type-constituents": "error",
+    "typescript/no-duplicate-type-constituents": "error"
+  }
+}

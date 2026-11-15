@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "./node_modules/@gergelyszerovay/architecture-skills/skills/node-block-architecture/assets/oxlint-prototype.json"
+  ],
+  "ignorePatterns": ["dist/", "coverage/", "**/.notes/**"]
+}

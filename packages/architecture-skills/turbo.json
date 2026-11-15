@@ -1,0 +1,38 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "extends": ["//"],
+  "tasks": {
+    "build": {
+      "inputs": [
+        "package.json",
+        "scripts/**",
+        "!scripts/*.test.mjs",
+        "skills/*/scripts/**",
+        "!skills/*/scripts/*.test.mjs",
+        "skills/*/*.architecture-profile.md",
+        "skills/*/*.constitution.md",
+        "skills/*/markdown-schema-templates/**",
+        "skills/*/assets/**",
+        "markdown-schema-templates/**",
+        "!**/.notes/**"
+      ]
+    },
+    "test": {
+      "inputs": ["$TURBO_DEFAULT$", "$TURBO_ROOT$/pnpm-lock.yaml", "!**/.notes/**"],
+      "cache": false
+    },
+    "validate": {
+      "dependsOn": ["^build"]
+    },
+    "templates:check": {},
+    "test:templates": {
+      "dependsOn": ["^build"],
+      "inputs": ["$TURBO_DEFAULT$", "$TURBO_ROOT$/pnpm-workspace.yaml", "!**/.notes/**"],
+      "env": ["CHROMIUM_PATH", "PLAYWRIGHT_CHROMIUM_PATH"]
+    },
+    "check:changelogs": {
+      "dependsOn": ["^build"],
+      "cache": false
+    }
+  }
+}

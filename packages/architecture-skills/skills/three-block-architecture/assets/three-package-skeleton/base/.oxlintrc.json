@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "./node_modules/@gergelyszerovay/architecture-skills/skills/three-block-architecture/assets/oxlint-base.json",
+    "./node_modules/@gergelyszerovay/architecture-skills/skills/three-block-architecture/assets/oxlint-no-symbol.json"
+  ],
+  "ignorePatterns": ["**/*.spec.ts", "dist/", "coverage/", "**/.notes/**"]
+}

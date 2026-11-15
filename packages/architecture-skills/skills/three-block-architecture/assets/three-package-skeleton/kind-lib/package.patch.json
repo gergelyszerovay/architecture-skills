@@ -1,0 +1,18 @@
+{
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./kit": {
+      "types": "./dist/kit.d.ts",
+      "default": "./dist/kit.js"
+    }
+  },
+  "scripts": {
+    "build": "pkgroll --clean-dist && check-host-tier ."
+  },
+  "devDependencies": {
+    "pkgroll": "^2.27.0"
+  }
+}

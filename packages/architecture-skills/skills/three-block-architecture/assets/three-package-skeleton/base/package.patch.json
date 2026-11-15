@@ -1,0 +1,29 @@
+{
+  "name": "example",
+  "version": "0.1.0",
+  "description": "A framework-independent three.js package made from the three-block-architecture template.",
+  "type": "module",
+  "sideEffects": false,
+  "architecture": {
+    "profile": "three-block-architecture",
+    "coverage": "specified"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "peerDependencies": {
+    "@types/three": "~0.186.0",
+    "three": "~0.186.1"
+  },
+  "devDependencies": {
+    "@gergelyszerovay/architecture-skills": "$SELF_VERSION",
+    "@gergelyszerovay/markdown-schema": "^0.13.0",
+    "@types/three": "~0.186.0",
+    "oxlint": "^1.51.0",
+    "oxlint-tsgolint": "^0.18.0",
+    "three": "~0.186.1",
+    "typescript": "~5.9.3",
+    "vitest": "^4.1.5"
+  }
+}

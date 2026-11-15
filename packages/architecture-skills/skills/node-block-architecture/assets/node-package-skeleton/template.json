@@ -1,0 +1,28 @@
+{
+  "architecture": "node",
+  "profile": "node-block-architecture",
+  "token": "example",
+  "variants": [
+    {
+      "tier": "prototype",
+      "kind": "app"
+    },
+    {
+      "tier": "prototype",
+      "kind": "lib"
+    },
+    {
+      "tier": "product",
+      "kind": "app"
+    },
+    {
+      "tier": "product",
+      "kind": "lib"
+    }
+  ],
+  "refused": [],
+  "catalog": {
+    "prototype": [],
+    "product": ["node-package", "node-lib"]
+  }
+}

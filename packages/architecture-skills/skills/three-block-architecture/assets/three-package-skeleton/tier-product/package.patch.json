@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "files": ["dist"],
+  "scripts": {
+    "lint": "oxlint --deny-warnings --type-aware --type-check src libs && check-names . && check-units . && check-tsdoc-tags . && validate-md layered-docs libs/*/layered-docs",
+    "test:browser": "vitest run --config vitest.browser.config.ts"
+  },
+  "devDependencies": {
+    "@vitest/browser-playwright": "^4.1.5",
+    "playwright": "1.51.1"
+  }
+}

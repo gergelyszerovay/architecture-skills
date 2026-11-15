@@ -1,0 +1,39 @@
+{
+  "name": "@gergelyszerovay/install-skills",
+  "version": "0.8.2",
+  "description": "Installs the agent skills of the packages a repository lists in installSkills into .claude/skills and .agents/skills. Plain Node, no dependencies.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gergelyszerovay/architecture-skills.git",
+    "directory": "packages/install-skills"
+  },
+  "type": "module",
+  "license": "MIT",
+  "author": "Gergely Szerovay",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "install-skills": "bin/install-skills.mjs"
+  },
+  "exports": {
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "node --test test/install-skills.test.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "publint": "publint --strict"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "devDependencies": {
+    "publint": "^0.3.24"
+  },
+  "changelog": {
+    "group": "architecture-skills"
+  }
+}

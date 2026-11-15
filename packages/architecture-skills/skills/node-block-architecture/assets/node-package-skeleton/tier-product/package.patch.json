@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsdown",
+    "lint": "eslint . && validate-md layered-docs libs/*/layered-docs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint:tsdoc": "check-tsdoc-tags .",
+    "lint:placement": "check-block-placement .",
+    "publint": "publint --strict"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10",
+    "eslint": "^10",
+    "eslint-config-prettier": "^10",
+    "eslint-plugin-jsdoc": "^64",
+    "eslint-plugin-n": "^18",
+    "eslint-plugin-tsdoc": "^0.5.3",
+    "prettier": "^3",
+    "publint": "^0.3.24",
+    "tsdown": "^0.23.0",
+    "typescript-eslint": "^8"
+  }
+}

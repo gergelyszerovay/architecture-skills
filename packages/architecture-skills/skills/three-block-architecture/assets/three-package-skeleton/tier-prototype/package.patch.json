@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "architecture": { "enforcement": "advisory" },
+  "scripts": {
+    "lint": "oxlint --deny-warnings --type-aware --type-check src libs && check-names . && check-units ."
+  }
+}

@@ -1,2 +1,7 @@
-.claude
-*.local
+node_modules/
+dist/
+coverage/
+.turbo/
+*.log
+.env
+.env.*

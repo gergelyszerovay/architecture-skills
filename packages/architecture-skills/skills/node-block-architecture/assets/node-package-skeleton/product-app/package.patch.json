@@ -1,0 +1,4 @@
+{
+  "bin": { "example": "bin/example.mjs" },
+  "files": ["bin", "dist"]
+}

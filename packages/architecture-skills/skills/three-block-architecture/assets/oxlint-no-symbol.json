@@ -1,0 +1,1054 @@
+{
+  "overrides": [
+    {
+      "files": [
+        "**/*.model.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".model.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".model.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".model.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".model.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".model.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".model.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".model.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".model.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".model.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".model.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.rules.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".rules.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".rules.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".rules.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".rules.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".rules.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".rules.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".rules.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".rules.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".rules.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".rules.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.events.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".events.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".events.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".events.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".events.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".events.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".events.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".events.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".events.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".events.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".events.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.shader.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".shader.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".shader.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".shader.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".shader.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".shader.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".shader.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".shader.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".shader.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".shader.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".shader.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.node.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".node.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".node.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".node.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".node.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".node.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".node.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".node.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".node.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".node.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".node.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.kit-model.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".kit-model.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".kit-model.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".kit-model.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".kit-model.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".kit-model.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".kit-model.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".kit-model.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".kit-model.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".kit-model.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".kit-model.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.material.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".material.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".material.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".material.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".material.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".material.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".material.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".material.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".material.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".material.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".material.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.geometry.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".geometry.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".geometry.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".geometry.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".geometry.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".geometry.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".geometry.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".geometry.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".geometry.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".geometry.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".geometry.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.texture.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".texture.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".texture.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".texture.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".texture.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".texture.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".texture.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".texture.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".texture.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".texture.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".texture.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.pass.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".pass.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".pass.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".pass.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".pass.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".pass.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".pass.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".pass.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".pass.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".pass.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".pass.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.pipeline.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".pipeline.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".pipeline.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".pipeline.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".pipeline.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".pipeline.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".pipeline.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".pipeline.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".pipeline.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".pipeline.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".pipeline.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.compute.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".compute.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".compute.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".compute.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".compute.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".compute.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".compute.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".compute.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".compute.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".compute.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".compute.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.prefab.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".prefab.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".prefab.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".prefab.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".prefab.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".prefab.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".prefab.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".prefab.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".prefab.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".prefab.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".prefab.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.prop.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".prop.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".prop.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".prop.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".prop.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".prop.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".prop.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".prop.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".prop.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".prop.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".prop.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.effect.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".effect.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".effect.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".effect.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".effect.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".effect.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".effect.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".effect.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".effect.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".effect.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".effect.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.surface.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".surface.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".surface.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".surface.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".surface.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".surface.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".surface.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".surface.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".surface.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".surface.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".surface.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.loop.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".loop.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".loop.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".loop.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".loop.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".loop.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".loop.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".loop.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".loop.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".loop.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".loop.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.system.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".system.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".system.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".system.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".system.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".system.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".system.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".system.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".system.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".system.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".system.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.controller.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".controller.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".controller.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".controller.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".controller.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".controller.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".controller.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".controller.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".controller.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".controller.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".controller.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.world.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".world.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".world.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".world.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".world.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".world.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".world.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".world.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".world.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".world.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".world.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "**/*.util.ts"
+      ],
+      "rules": {
+        "no-restricted-globals": [
+          "error",
+          {
+            "name": "window",
+            "message": ".util.ts blocks don't touch browser globals; take window as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "document",
+            "message": ".util.ts blocks don't touch browser globals; take document as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "navigator",
+            "message": ".util.ts blocks don't touch browser globals; take navigator as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "localStorage",
+            "message": ".util.ts blocks don't touch browser globals; take localStorage as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "matchMedia",
+            "message": ".util.ts blocks don't touch browser globals; take matchMedia as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "requestAnimationFrame",
+            "message": ".util.ts blocks don't touch browser globals; take requestAnimationFrame as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setTimeout",
+            "message": ".util.ts blocks don't touch browser globals; take setTimeout as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "setInterval",
+            "message": ".util.ts blocks don't touch browser globals; take setInterval as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "addEventListener",
+            "message": ".util.ts blocks don't touch browser globals; take addEventListener as an argument (three-block-architecture D11)."
+          },
+          {
+            "name": "performance",
+            "message": ".util.ts blocks don't touch browser globals; take performance as an argument (three-block-architecture D11)."
+          }
+        ]
+      }
+    }
+  ]
+}

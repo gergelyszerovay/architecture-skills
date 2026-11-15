@@ -1,0 +1,75 @@
+{
+  "name": "@gergelyszerovay/architecture-skills",
+  "version": "0.8.2",
+  "description": "The architecture skills (block architectures, profiles, documentation, planning) and their scripts; other workspaces of the repository link it to run the scripts by name.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Gergely Szerovay",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gergelyszerovay/architecture-skills.git",
+    "directory": "packages/architecture-skills"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    "./load-profile.cjs": "./skills/architecture-profile/scripts/load-profile.cjs",
+    "./eslint-rules.cjs": "./skills/architecture-profile/scripts/eslint-rules.cjs",
+    "./vendor-roots.cjs": "./skills/architecture-profile/scripts/vendor-roots.cjs",
+    "./skills/*": "./skills/*"
+  },
+  "bin": {
+    "new-package": "scripts/new-package.mjs",
+    "check-tsdoc-tags": "skills/architecture-profile/scripts/check-tsdoc-tags.mjs",
+    "check-block-placement": "skills/architecture-profile/scripts/check-block-placement.mjs",
+    "check-host-tier": "skills/three-block-architecture/scripts/check-host-tier.mjs",
+    "check-names": "skills/three-block-architecture/scripts/check-names.mjs",
+    "check-units": "skills/three-block-architecture/scripts/check-units.mjs",
+    "check-planning": "skills/planning/scripts/check-planning.mjs",
+    "plan-history": "skills/planning/scripts/plan-history.mjs",
+    "roadmap": "skills/planning/scripts/roadmap.mjs",
+    "promote-plan": "skills/planning/scripts/promote-plan.mjs",
+    "move-plan": "skills/planning/scripts/move-plan.mjs",
+    "check-changelogs": "skills/changelog/scripts/check-changelogs.mjs",
+    "release-changelog": "skills/changelog/scripts/release-changelog.mjs"
+  },
+  "files": [
+    "skills",
+    "!**/*.refine.ts",
+    "scripts/new-package.mjs",
+    "README*.md",
+    "CHANGELOG*.md",
+    "!**/*.test.mjs"
+  ],
+  "scripts": {
+    "prepack": "node scripts/build-refine-js.mjs",
+    "postpack": "node scripts/build-refine-js.mjs --clean",
+    "test": "node --test scripts/*.test.mjs skills/*/scripts/*.test.mjs skills/*/markdown-schema-templates/*/*.test.mjs",
+    "validate": "validate-md .",
+    "templates:sync": "node scripts/sync-markdown-schema-templates.mjs",
+    "templates:check": "node scripts/sync-markdown-schema-templates.mjs --check",
+    "test:templates": "node scripts/check-package-templates.mjs",
+    "check:changelogs": "node skills/changelog/scripts/check-changelogs.mjs .",
+    "check": "turbo run test validate templates:check test:templates check:changelogs --filter=@gergelyszerovay/architecture-skills"
+  },
+  "devDependencies": {
+    "@gergelyszerovay/install-skills": "workspace:*",
+    "@gergelyszerovay/markdown-schema": "^0.13.3",
+    "eslint": "^10",
+    "eslint-plugin-tsdoc": "^0.5.3",
+    "prettier": "^3.8.1"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "24.21.0",
+      "onFail": "error"
+    }
+  },
+  "packageManager": "pnpm@12.11.2+sha512.25a51652a196785af5f28bda6dfe8dc582ebefa4ac1d180221ce1390231c5fb76637822ea4b6e4633ce74acdcb0a77f725af11bad38177fdeddaee818a955cb9",
+  "changelog": {
+    "group": "architecture-skills"
+  }
+}

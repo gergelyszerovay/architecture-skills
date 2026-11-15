@@ -1,0 +1,30 @@
+{
+  "architecture": "three",
+  "profile": "three-block-architecture",
+  "token": "example",
+  "variants": [
+    {
+      "tier": "prototype",
+      "kind": "app"
+    },
+    {
+      "tier": "product",
+      "kind": "app"
+    },
+    {
+      "tier": "product",
+      "kind": "lib"
+    }
+  ],
+  "refused": [
+    {
+      "tier": "prototype",
+      "kind": "lib",
+      "reason": "a three.js lib prototype cannot be imported from source while the three-block-architecture skill uses the package-local ~libs/* alias (constitution D8 moves it to #libs/*); make the prototype an app, or a product lib"
+    }
+  ],
+  "catalog": {
+    "prototype": [],
+    "product": ["three-package", "three-lib"]
+  }
+}

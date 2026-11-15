@@ -1,0 +1,8 @@
+dist/
+.angular/
+node_modules/
+# Vendor root (spartan-ui Helm components): kept in its own upstream formatting, per
+# source-organization's rule that generated/vendor roots are registered separately.
+libs/ui/
+# The person's notes (lab D6)
+.notes/

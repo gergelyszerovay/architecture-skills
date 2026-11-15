@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "portless",
+    "dev:app": "vite"
+  },
+  "portless": {
+    "script": "dev:app"
+  }
+}

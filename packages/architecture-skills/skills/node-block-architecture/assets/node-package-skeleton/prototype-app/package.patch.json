@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "portless",
+    "dev:app": "node --watch app/example.main.ts"
+  },
+  "portless": {
+    "script": "dev:app"
+  }
+}

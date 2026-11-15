@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
+  "extends": [],
+  "tagDefinitions": [
+    { "tagName": "@owns", "syntaxKind": "block" },
+    { "tagName": "@lifetime", "syntaxKind": "block" },
+    { "tagName": "@reset", "syntaxKind": "block" },
+    { "tagName": "@concurrency", "syntaxKind": "block" },
+    { "tagName": "@failure", "syntaxKind": "block" },
+    { "tagName": "@identity", "syntaxKind": "block" },
+    { "tagName": "@cache", "syntaxKind": "block" },
+    { "tagName": "@cleanup", "syntaxKind": "block" },
+    { "tagName": "@dismiss", "syntaxKind": "block" },
+    { "tagName": "@pending", "syntaxKind": "block" },
+    { "tagName": "@blocking", "syntaxKind": "block" }
+  ]
+}

@@ -1,0 +1,27 @@
+node_modules/
+dist/
+coverage/
+pnpm-lock.yaml
+temp/
+
+# Plans are immutable once written: never reformat the planning tree, so a formatter run never
+# rewrites a frozen plan.md
+/planning/
+
+# Generated from the three-block-architecture profile by its scripts/build-oxlint-config.mjs
+packages/architecture-skills/skills/three-block-architecture/assets/oxlint-no-symbol.json
+
+# The node architecture's reference repository, a template that keeps its own .prettierrc.json and
+# the formatting of the Prettier its checks run (this package's), not this repository's
+packages/architecture-skills/skills/node-block-architecture/assets/reference-repo/
+
+# The Angular template's vendor root (spartan-ui Helm components), which its own nested
+# .prettierignore keeps in upstream formatting: the commit hook's Prettier (lint-staged) reads the
+# root's ignore file only
+packages/architecture-skills/skills/angular-block-architecture/assets/spartan-ui-boilerplate/libs/ui/
+
+# Angular's cache
+.angular/
+
+# The person's notes, at any level
+.notes/

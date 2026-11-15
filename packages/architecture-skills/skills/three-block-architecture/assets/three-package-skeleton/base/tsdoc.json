@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
+  "tagDefinitions": [
+    { "tagName": "@backend", "syntaxKind": "block" },
+    { "tagName": "@output", "syntaxKind": "block" },
+    { "tagName": "@owns", "syntaxKind": "block" },
+    { "tagName": "@cleanup", "syntaxKind": "block" },
+    { "tagName": "@lifetime", "syntaxKind": "block" },
+    { "tagName": "@step", "syntaxKind": "block" },
+    { "tagName": "@failure", "syntaxKind": "block" },
+    { "tagName": "@attributes", "syntaxKind": "block" },
+    { "tagName": "@renderer", "syntaxKind": "block" },
+    { "tagName": "@after", "syntaxKind": "block" },
+    { "tagName": "@requires", "syntaxKind": "block" }
+  ]
+}

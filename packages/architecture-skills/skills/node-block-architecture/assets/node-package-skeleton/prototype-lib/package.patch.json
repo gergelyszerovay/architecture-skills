@@ -1,0 +1,5 @@
+{
+  "exports": {
+    ".": "./libs/example/src/package.entry.ts"
+  }
+}
